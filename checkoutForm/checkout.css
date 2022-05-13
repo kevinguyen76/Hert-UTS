@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(26, 26, 26);
+  font-family: "montserrat", sans-serif;
+  color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.title h1 {
+  color: white;
+  text-align: center;
+  border: solid;
+  border-color: white;
+  border-width: 1.5px;
+  border-radius: 10px;
+  padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.back_btn_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.back_home_btn {
+  color: white;
+  background: rgb(26, 26, 26);
+  border: none;
+  padding: 1rem;
+}
+
+.back_home_btn:hover {
+  cursor: pointer;
+}
+
+.cart_btn {
+  color: white;
+  background: rgb(26, 26, 26);
+  border: none;
+  padding: 1rem;
+}
+
+.cart_btn:hover {
+  cursor: pointer;
+}
+
+.checkout_form_wrapper {
+  margin-top: 1rem;
+}
+
+.form_header {
+  display: flex;
+  justify-content: center;
+}
+
+.form_header h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.total_rental_price {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_inputs {
+  width: fit-content;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 2rem 4.5rem 2rem 4rem;
+  border-radius: 10px;
+  height: auto;
+  background-color: white;
+}
+
+#email {
+  width: 100%;
+}
+
+#address {
+  width: 100%;
+}
+
+#city {
+  width: 100%;
+}
+
+#phone_number {
+  width: 100%;
+}
+
+#payment_method {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  border: solid;
+  border-width: 1px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+select {
+  /* margin-bottom: 10px; */
+  width: 350px;
+  height: 30px;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+label {
+  color: black;
+  font-size: 18px;
+}
+
+label:after {
+  content: " *";
+  color: red;
+}
+
+td {
+  padding-bottom: 10px;
+  padding-left: 2rem;
+}
+
+.button_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* button {
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 2rem;
+  width: 100%;
+} */
+
+button {
+  border: solid;
+  border-color: #7bdc7e;
+  background-color: #c9ffca;
+  font-weight: lighter;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 2rem;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #7bdc7e;
+  color: white;
+}

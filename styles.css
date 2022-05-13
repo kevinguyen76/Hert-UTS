@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(26, 26, 26);
+  font-family: "montserrat", sans-serif;
+  color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.title h1 {
+  color: white;
+  text-align: center;
+  border: solid;
+  border-color: white;
+  border-width: 1.5px;
+  border-radius: 10px;
+  padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.res_cart_wrapper {
+  display: flex;
+  /* position: relative; */
+  justify-content: center;
+  /* top: -5.35rem;
+  left: -9.8rem; */
+}
+
+.reservation_cart_btn {
+  color: white;
+  background: rgb(26, 26, 26);
+  border: none;
+  /* border-color: white; */
+  /* border-width: 1.5px;
+  border-radius: 10px; */
+  padding: 1rem;
+}
+
+.reservation_cart_btn:hover {
+  cursor: pointer;
+}
+
+.cars_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.cars_card {
+  background-color: white;
+  border-radius: 15px;
+  width: 375px;
+  height: 575px;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cars_card h1 {
+  color: black;
+  font-size: larger;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.car_image img {
+  height: 240px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.car_deets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.car_deets h2 {
+  color: rgb(26, 26, 26);
+  text-align: center;
+  font-size: medium;
+}
+
+.car_deets p {
+  color: rgb(26, 26, 26);
+  text-align: center;
+  font-size: small;
+}
+
+.car_description {
+  color: black;
+  text-align: center;
+}
+
+.car_price {
+  color: rgb(26, 26, 26);
+  margin-top: 1rem;
+  text-align: center;
+  font-size: medium;
+}
+
+.btn_wrapper {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation_btn {
+  background-color: rgb(26, 26, 26);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: larger;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.unavailable_btn {
+  background-color: rgb(82, 82, 82);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: larger;
+  width: 100%;
+}
+
+.reservation_btn:hover {
+  cursor: pointer;
+}
+
+.unavailable_btn:hover {
+  cursor: pointer;
+}

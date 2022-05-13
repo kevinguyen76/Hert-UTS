@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(26, 26, 26);
+  font-family: "montserrat", sans-serif;
+  color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.title h1 {
+  color: white;
+  text-align: center;
+  border: solid;
+  border-color: white;
+  border-width: 1.5px;
+  border-radius: 10px;
+  padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.back_btn_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.back_home_btn {
+  color: white;
+  background: rgb(26, 26, 26);
+  border: none;
+  padding: 1rem;
+}
+
+.back_home_btn:hover {
+  cursor: pointer;
+}
+
+.checkout_btn {
+  color: white;
+  background: rgb(26, 26, 26);
+  border: none;
+  padding: 1rem 10rem 1rem 10rem;
+  border: solid;
+  border-color: white;
+  border-width: 1.5px;
+  border-radius: 10px;
+}
+
+.checkout_btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(26, 26, 26);
+}
+
+.checkout_btn_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cars_wrapper {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  padding: 2rem;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.view-car-cart {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+.card_cart_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cars_cart_card {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  margin-bottom: 2rem;
+  max-width: 900px;
+}
+
+.card_img_wrapper {
+  flex: 0 0 50%;
+  position: relative;
+}
+
+.card_img {
+  display: block;
+  width: 75%;
+  height: auto;
+  align-items: center;
+  margin: auto;
+}
+
+.card_content {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2.5rem;
+}
+
+.vehicle_content {
+  display: flex;
+  padding-bottom: 7px;
+}
+
+.vehicle_content h4 {
+  font-size: 1.15rem;
+  margin-right: 1rem;
+}
+
+.vehicle_content p {
+  font-size: 1.15rem;
+}
+
+.price_content {
+  display: flex;
+  padding-bottom: 7px;
+}
+
+.price_content h4 {
+  font-size: 1.15rem;
+  margin-right: 1rem;
+}
+
+.price_content p {
+  font-size: 1.15rem;
+}
+
+.reservation_content {
+  display: flex;
+}
+
+.reservation_content h4 {
+  font-size: 1.15rem;
+  margin-right: 1rem;
+  padding-top: 5px;
+}
+
+.reservation_content input {
+  border: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.reservation_content input:focus {
+  outline: none;
+}
+
+.remove_btn_wrapper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.remove_btn_wrapper form {
+  width: 400px;
+}
+
+.remove_car_btn {
+  color: rgb(48, 78, 198);
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(48, 78, 198);
+  border-radius: 10px;
+  font-size: larger;
+  margin-top: 1rem;
+  padding: 5px;
+  width: 68%;
+}
+
+.remove_car_btn:hover {
+  cursor: pointer;
+}
+
+.no_cars_cart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#updateRentalPeriodBtn {
+  border: none;
+  border-radius: 8px;
+  height: 35px;
+  width: 60px;
+  border: solid;
+  border-color: #7bdc7e;
+  background-color: #c9ffca;
+  font-weight: lighter;
+}
+
+#updateRentalPeriodBtn:hover {
+  cursor: pointer;
+  background-color: #7bdc7e;
+  color: white;
+}

@@ -3,11 +3,11 @@ var carArray = [];
 
 async function getData() {
   // Load Array of cars
-  const request = await fetch("http://localhost:3000/rentalCars");
+  const request = await fetch("https://kevinguyen76.github.io/cars.json");
   const data = await request.json();
   carArray = data;
   console.log(data);
-  renderHTML(data);
+  renderHTML(data.rentalCars);
 }
 
 function renderHTML(data) {

@@ -6,7 +6,7 @@ async function getData() {
   const request = await fetch("https://kevinguyen76.github.io/cars.json");
   const data = await request.json();
   carArray = data;
-  console.log(data);
+  console.log(data.rentalCars);
   renderHTML(data.rentalCars);
 }
 
@@ -68,7 +68,7 @@ function renderHTML(data) {
     .forEach(function (button) {
       button.addEventListener("click", function (event) {
         var carId = event.target.parentNode.parentNode.id;
-        var car = carArray.find(function (car) {
+        var car = carArray.rentalCars.find(function (car) {
           return car.id == carId;
         });
 
